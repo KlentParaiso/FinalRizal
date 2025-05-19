@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Book, Camera, Github, Code, Heart } from 'lucide-react';
+import { Book, Code, Heart } from 'lucide-react';
 
 const Credits: React.FC = () => {
   return (
