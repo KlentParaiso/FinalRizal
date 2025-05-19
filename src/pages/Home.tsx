@@ -25,7 +25,7 @@ const Home: React.FC = () => {
       <div className="relative rounded-xl overflow-hidden shadow-xl mb-12 aspect-video border-2 border-primary-300 bg-primary-100">
         <iframe
           className="w-full h-full"
-          src="https://www.youtube.com/embed/iR84EJW1RZg"
+          src="https://www.youtube.com/watch?v=roaBNInEirc"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
