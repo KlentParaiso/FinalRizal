@@ -2,44 +2,44 @@ import React, { useState } from 'react';
 
 const qaPairs = [
   {
-    question: 'Sino ang naglalakad-lakad sa bahay ni Kapitan Tiyago habang naghihintay si Maria Clara kay Ibarra?',
-    answer: 'Si Padre Salvi.'
+    question: 'Sino ang naghihintay kay Ibarra sa bahay ni Kapitan Tiyago?',
+    answer: 'Si Maria Clara.'
   },
   {
-    question: 'Anong oras dumating si Ibarra sa bahay ni Kapitan Tiyago?',
-    answer: 'Eksaktong alas-otso.'
+    question: 'Ano ang ginawa kay Tarsilio?',
+    answer: ' Pinalo siya hanggang magdugo, tapos itinapon sa balon.'
   },
   {
-    question: 'Bakit nagsimulang magulo sa labas ng bahay ni Kapitan Tiyago?',
-    answer: 'Dahil sa sunod-sunod na putukan at kaguluhan ng mga tao.'
+    question: 'Sino ang umiiyak sa labas ng bulwagan?',
+    answer: 'Ang kapatid na babae nina Tarsilio at Bruno'
   },
   {
-    question: 'Sino ang tumulong kay Ibarra at nagsunog ng mga ebidensya sa bahay ni Ibarra?',
-    answer: 'Si Elias.'
+    question: 'Ano ang ginawa ng mga tao kay Ibarra?',
+    answer: 'Pinagbato at tinawag siyang erehe..'
   },
   {
-    question: 'Ano ang nangyari kay Tarsilio sa Kabanata 57?',
-    answer: 'Pinagpapalo siya ng mga sibil at pagkatapos ay pinatay sa balong may nakakasulasok na amoy at tubig.'
+    question: 'Sino ang nagtakas kay Maria Clara?',
+    answer: 'Sina Elias at Ibarra.'
   },
   {
-    question: 'Bakit nagpasya si Padre Damaso na pahintulutan si Maria Clara na pumasok sa kumbento?',
-    answer: 'Dahil hindi niya kayang pahirapan pa si Maria Clara, at nangako siyang alagaan ang kapakanan ng dalaga.'
+    question: 'Saan tinago ni Elias ang pera ni Ibarra?',
+    answer: 'Sa libingan ng ninuno.'
   },
   {
-    question: 'Ano ang ipinagtapat ni Maria Clara kay Padre Damaso?',
-    answer: 'Na hindi niya mahal si Linares at si Ibarra lamang ang kanyang iniintindi.'
+    question: 'Ano ang ginawa ng mga sibil kay Elias?',
+    answer: 'Binabaril siya habang lumalangoy.'
   },
   {
-    question: 'Ano ang ginamit ni Basilio bilang regalo para sa kanyang ina?',
-    answer: 'Pindang usa na ibinigay ng matanda sa bundok.'
+    question: 'Ano ang hiling ni Maria Clara kay Padre Damaso?',
+    answer: 'Kanselahin ang kasal kay Linares.'
   },
   {
-    question: 'Ano ang habilin ni Elias kay Basilio bago siya pumanaw?',
-    answer: 'Pinagbilinan siya na sunugin ang katawan ni Sisa at kumuha ng panggatong sa ilalim ng puno ng balite.'
+    question: 'Ano ang nangyari kay Padre Damaso?',
+    answer: 'Natagpuang patay sa kwarto, dahil sa bangungot.'
   },
   {
-    question: 'Ano ang sanhi ng kamatayan ni Padre Damaso?',
-    answer: 'Bangungot.'
+    question: 'Ano ang ginawa ni Kapitan Tiyago pagkatapos ng lahat?',
+    answer: 'Nalulong sa sabong, sugal, at droga.'
   }
 ];
 
