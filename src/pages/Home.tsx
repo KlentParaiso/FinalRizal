@@ -29,7 +29,7 @@ const Home: React.FC = () => {
           poster="https://images.pexels.com/photos/4386442/pexels-photo-4386442.jpeg"
         >
           <source 
-            src="https://samplelib.com/lib/preview/mp4/sample-30s.mp4" 
+            src="https://www.youtube.com/watch?v=iR84EJW1RZg" 
             type="video/mp4" 
           />
           Your browser does not support the video tag.
