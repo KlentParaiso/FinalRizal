@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Eye, ArrowLeft } from 'lucide-react';
 
 const qaPairs = [
   {
@@ -83,17 +84,19 @@ const FlipCard: React.FC<{ question: string; answer: string }> = ({ question, an
           <div className="flex justify-center gap-4 w-full mt-auto">
             {!showAnswer && (
               <button
-                className="px-4 py-2 rounded-lg font-playfair text-base font-semibold text-white bg-gradient-to-r from-gold-400 via-gold-500 to-gold-400 shadow transition-all duration-200 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-gold-200"
+                className="px-4 py-2 rounded-lg font-playfair text-base font-semibold text-white bg-gradient-to-r from-gold-400 via-gold-500 to-gold-400 shadow transition-all duration-200 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-gold-200 flex items-center gap-2"
                 onClick={() => setShowAnswer(true)}
+                aria-label="Ipakita ang Sagot"
               >
-                Ipakita ang Sagot
+                <Eye size={20} className="text-white drop-shadow" />
               </button>
             )}
             <button
-              className="px-4 py-2 rounded-lg font-playfair text-base font-semibold text-parchment-100 bg-ink-900 shadow transition-all duration-200 hover:scale-105 hover:bg-ink-800 focus:outline-none focus:ring-2 focus:ring-ink-300"
+              className="px-4 py-2 rounded-lg font-playfair text-base font-semibold text-parchment-100 bg-ink-900 shadow transition-all duration-200 hover:scale-105 hover:bg-ink-800 focus:outline-none focus:ring-2 focus:ring-ink-300 flex items-center gap-2"
               onClick={() => { setFlipped(false); setShowAnswer(false); }}
+              aria-label="Balik sa Likod"
             >
-              Balik sa Likod
+              <ArrowLeft size={20} className="text-parchment-100 drop-shadow" />
             </button>
           </div>
           <div className="w-1/2 h-1 mt-2 bg-gradient-to-r from-gold-400 via-gold-500 to-gold-400 rounded-full opacity-70" />
