@@ -23,17 +23,13 @@ const Home: React.FC = () => {
       </div>
 
       <div className="relative rounded-xl overflow-hidden shadow-xl mb-12 aspect-video border-2 border-primary-300 bg-primary-100">
-        <video 
-          className="w-full h-full object-cover"
-          controls
-          poster="https://images.pexels.com/photos/4386442/pexels-photo-4386442.jpeg"
-        >
-          <source 
-            src="https://www.youtube.com/watch?v=iR84EJW1RZg" 
-            type="video/mp4" 
-          />
-          Your browser does not support the video tag.
-        </video>
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/iR84EJW1RZg"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 mb-12">
